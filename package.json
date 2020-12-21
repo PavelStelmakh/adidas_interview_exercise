@@ -1,0 +1,20 @@
+{
+  "name": "adidas_interview_exercise",
+  "version": "1.0.0",
+  "description": "Calculate expression by string",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelStelmakh/adidas_interview_exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelStelmakh/adidas_interview_exercise/issues"
+  },
+  "homepage": "https://github.com/PavelStelmakh/adidas_interview_exercise#readme"
+}
