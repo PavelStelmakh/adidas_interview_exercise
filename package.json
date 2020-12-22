@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/PavelStelmakh/adidas_interview_exercise/issues"
   },
-  "type": "module",
   "homepage": "https://github.com/PavelStelmakh/adidas_interview_exercise#readme",
   "devDependencies": {
     "mocha": "8.2.1"

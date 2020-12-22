@@ -1,4 +1,4 @@
-import { OPERATION_PROCCES, OPERATIONS } from './constants.js';
+const { OPERATION_PROCCES, OPERATIONS } = require('./constants.js');
 
 const mapRPNToValue = (expressionArray) =>
   expressionArray.reduce((values, char) => {
@@ -12,4 +12,4 @@ const mapRPNToValue = (expressionArray) =>
     return [char, ...values];
   }, [])[0] || 0;
 
-export default mapRPNToValue;
+module.exports = mapRPNToValue;

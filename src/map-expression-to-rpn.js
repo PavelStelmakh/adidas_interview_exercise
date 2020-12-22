@@ -1,4 +1,4 @@
-import { LOW_PRIORITY, OPERATIONS } from './constants.js';
+const { LOW_PRIORITY, OPERATIONS } = require('./constants.js');
 
 const mapExpressionToRPN = (chars) => {
   const { operations, expression } = chars.reduce(
@@ -25,4 +25,4 @@ const mapExpressionToRPN = (chars) => {
   return [...expression, ...operations];
 };
 
-export default mapExpressionToRPN;
+module.exports = mapExpressionToRPN;

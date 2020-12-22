@@ -1,4 +1,4 @@
-import { OPERATION, OPERATIONS, SPACE, POINT } from './constants.js';
+const { OPERATION, OPERATIONS, SPACE, POINT } = require('./constants.js');
 
 const prepareExpressionForRPN = (expressionArray) => {
   const { expression } = expressionArray.reduce(
@@ -42,4 +42,4 @@ const prepareExpressionForRPN = (expressionArray) => {
     .reverse();
 };
 
-export default prepareExpressionForRPN;
+module.exports = prepareExpressionForRPN;

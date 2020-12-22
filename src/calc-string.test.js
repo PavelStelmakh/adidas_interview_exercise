@@ -1,5 +1,5 @@
-import calcString from './calc-string.js';
-import * as assert from 'assert';
+const calcString = require('./calc-string.js');
+const assert = require('assert');
 
 describe('calc-string', () => {
     it('should return 2 if string is "1 + 1"', () => {
