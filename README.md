@@ -1,5 +1,5 @@
 # adidas_interview_exercise
-## task
+## task description
 
 * Takes a string with a calculation (f.i. '3 + 4 + 4 - 5') and
 
@@ -58,3 +58,12 @@ expect(calcString('1 + * 1'), 2);
 
 expect(calcString('+ * 1 + 1 / 2'), 1.5);
 ```
+## Installing and running tests
+
+1. git clone https://github.com/PavelStelmakh/adidas_interview_exercise.git;
+2. npm install;
+3. npm run test.
+
+## Note
+
+This task was implemented via [Reverse Polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation) method.

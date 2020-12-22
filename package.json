@@ -2,9 +2,9 @@
   "name": "adidas_interview_exercise",
   "version": "1.0.0",
   "description": "Calculate expression by string",
-  "main": "index.js",
+  "main": "calc-string.js",
   "scripts": {
-    "test": ""
+    "test": "mocha ./src/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/PavelStelmakh/adidas_interview_exercise/issues"
   },
-  "homepage": "https://github.com/PavelStelmakh/adidas_interview_exercise#readme"
+  "type": "module",
+  "homepage": "https://github.com/PavelStelmakh/adidas_interview_exercise#readme",
+  "devDependencies": {
+    "mocha": "8.2.1"
+  }
 }

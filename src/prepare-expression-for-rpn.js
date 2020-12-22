@@ -1,4 +1,4 @@
-import { OPERATION, OPERATIONS, SPACE, POINT } from './constants';
+import { OPERATION, OPERATIONS, SPACE, POINT } from './constants.js';
 
 const prepareExpressionForRPN = (expressionArray) => {
   const { expression } = expressionArray.reduce(

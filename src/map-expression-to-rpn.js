@@ -1,4 +1,4 @@
-import { LOW_PRIORITY, OPERATIONS } from './constants';
+import { LOW_PRIORITY, OPERATIONS } from './constants.js';
 
 const mapExpressionToRPN = (chars) => {
   const { operations, expression } = chars.reduce(

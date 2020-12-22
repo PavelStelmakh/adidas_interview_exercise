@@ -1,4 +1,4 @@
-import { OPERATION_PROCCES, OPERATIONS } from './constants';
+import { OPERATION_PROCCES, OPERATIONS } from './constants.js';
 
 const mapRPNToValue = (expressionArray) =>
   expressionArray.reduce((values, char) => {
